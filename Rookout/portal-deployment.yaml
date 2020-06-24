@@ -106,10 +106,6 @@ metadata:
     app: portal
   name: portal
 spec:
-  containers:
-  - env:
-    - name: DUMMY
-      value: "v0"
   ports:
   - name: "8080"
     port: 8080

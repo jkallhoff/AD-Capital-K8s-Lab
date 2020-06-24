@@ -109,7 +109,7 @@ spec:
   containers:
   - env:
     - name: DUMMY
-    value: "v0"
+      value: "v0"
   ports:
   - name: "8080"
     port: 8080
